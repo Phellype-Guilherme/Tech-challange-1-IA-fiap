@@ -44,7 +44,7 @@ A base utilizada foi gerada sinteticamente para simular um conjunto realista de 
 
 ```
 git clone https://github.com/Phellype-Guilherme/Tech-challange-1-IA-fiap.git
-cd tech-challenge-seguro
+cd Tech-challange-1-IA-fiap
 ```
 
 
