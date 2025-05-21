@@ -43,7 +43,7 @@ A base utilizada foi gerada sinteticamente para simular um conjunto realista de 
 ### 1. Clonar o repositório ou baixar os arquivos
 
 ```
-git clone https://github.com/seu-usuario/tech-challenge-seguro.git
+git clone https://github.com/Phellype-Guilherme/Tech-challange-1-IA-fiap.git
 cd tech-challenge-seguro
 ```
 
