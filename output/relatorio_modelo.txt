@@ -1,0 +1,39 @@
+Relatório - Modelo de Regressão Linear
+========================================
+MAE: 719.52
+RMSE: 840.94
+R²: 0.87
+
+Resumo Estatístico (Statsmodels):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               encargos   R-squared:                       0.884
+Model:                            OLS   Adj. R-squared:                  0.883
+Method:                 Least Squares   F-statistic:                     753.6
+Date:                Tue, 20 May 2025   Prob (F-statistic):               0.00
+Time:                        21:21:22   Log-Likelihood:                -6537.8
+No. Observations:                 800   AIC:                         1.309e+04
+Df Residuals:                     791   BIC:                         1.314e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             2077.6898    187.972     11.053      0.000    1708.707    2446.672
+idade               99.3881      2.268     43.829      0.000      94.937     103.839
+imc                144.6244      4.909     29.462      0.000     134.989     154.260
+filhos             311.3549     18.445     16.880      0.000     275.148     347.562
+gênero_masculino   -44.9560     61.293     -0.733      0.463    -165.272      75.360
+fumante_sim      3007.3335      61.283     49.073      0.000    2887.037    3127.630
+região_noroeste     84.2670     86.885      0.970      0.332     -86.286     254.820
+região_sudeste      35.1038     85.414      0.411      0.681    -132.561     202.769
+região_sudoeste    110.8073     88.039      1.259      0.209     -62.010     283.624
+==============================================================================
+Omnibus:                      415.207   Durbin-Watson:                   1.815
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.729
+Skew:                           0.025   Prob(JB):                     1.94e-10
+Kurtosis:                       1.843   Cond. No.                         328.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
